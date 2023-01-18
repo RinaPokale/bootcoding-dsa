@@ -4,16 +4,24 @@ package recursion;
 
 public class ReverseStrUsingRecursion {
     public static void main(String[] args) {
-        String str = "Hello";
+        String str = "Hello world";
         char[] arr = str.toCharArray();
         reverseStr(arr, 0);
+
+        for(int i = 0; i < arr.length; i++){
+            System.out.println(arr[i]);
+        }
     }
 
     private static void reverseStr(char[] arr, int i){
-        if(i == arr.length)
+        if(i == arr.length/2)
             return;
 
+        char temp = arr[i];
+        arr[i] = arr[arr.length-(i+1)];
+        arr[arr.length-(i+1)] = temp;
+
         reverseStr(arr, i+1);
-        System.out.println(arr[i]);
+
     }
 }
