@@ -17,6 +17,8 @@ public class PrintEvnInLinList {
 
     public static void printEvenNum(Node head){
         Node temp = head;
+
+        System.out.println("Even Numbers:-");
         while (temp!= null){
             if(temp.data % 2 == 0)
                 System.out.println(temp.data);
