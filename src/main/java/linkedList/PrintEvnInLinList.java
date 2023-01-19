@@ -7,10 +7,10 @@ public class PrintEvnInLinList {
         Node n3 = new Node(3);
         Node n4 = new Node(6);
 
+        Node head = n1;
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
-        Node head = n1;
 
         return head;
     }
