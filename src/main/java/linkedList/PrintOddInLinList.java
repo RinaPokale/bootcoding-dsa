@@ -1,6 +1,11 @@
 package linkedList;
 
 public class PrintOddInLinList {
+    public static void main(String[] args) {
+        Node head = createLinkedList();
+        printOddInLinkedList(head);
+    }
+
     private static Node createLinkedList(){
         Node n1 = new Node(1);
         Node n2 = new Node(3);
@@ -27,9 +32,6 @@ public class PrintOddInLinList {
         }
     }
 
-    public static void main(String[] args) {
-        Node head = createLinkedList();
-        printOddInLinkedList(head);
-    }
+
 
 }
