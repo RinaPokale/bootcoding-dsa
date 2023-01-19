@@ -1,6 +1,11 @@
 package linkedList;
 
 public class PrintEvnInLinList {
+    public static void main(String[] args) {
+        Node head = createLinkedList();
+        printEvenNum(head);
+    }
+
     public static Node createLinkedList(){
         Node n1 = new Node(2);
         Node n2 = new Node(5);
@@ -27,8 +32,5 @@ public class PrintEvnInLinList {
         }
     }
 
-    public static void main(String[] args) {
-        Node head = createLinkedList();
-        printEvenNum(head);
-    }
+
 }
