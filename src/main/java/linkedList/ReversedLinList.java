@@ -6,7 +6,7 @@ public class ReversedLinList {
         Node head = createLinkedList();
         printLinkedList(head);
         head = reversedLinList(head);
-        System.out.println();
+        System.out.println("\nReversed Linked List:-");
         printLinkedList(head);
     }
 
@@ -28,7 +28,7 @@ public class ReversedLinList {
         Node temp = head;
 
         while (temp!=null){
-            System.out.println(temp.data + " ");
+            System.out.print(temp.data + " ");
             temp = temp.next;
         }
     }
@@ -46,4 +46,5 @@ public class ReversedLinList {
         }
         return prev;
     }
+
 }
