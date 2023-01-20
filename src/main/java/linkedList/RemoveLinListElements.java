@@ -2,6 +2,12 @@ package linkedList;
 
 public class RemoveLinListElements {
 
+    public static void main(String[] args) {
+        Node head = createLinkedList();
+        head = removeElements(head, 30);
+        printLinkedList(head);
+    }
+
     private static Node createLinkedList(){
         Node n1 = new Node(10);
         Node n2 = new Node(30);
@@ -46,9 +52,5 @@ public class RemoveLinListElements {
         }
     }
 
-    public static void main(String[] args) {
-        Node head = createLinkedList();
-        head = removeElements(head, 30);
-        printLinkedList(head);
-    }
+
 }
