@@ -1,6 +1,13 @@
 package linkedList;
 
 public class ReturnSecondLastEleInLinList {
+
+    public static void main(String[] args) {
+        Node head = createLinkedList();
+        Node secondLast = returnSecondLast(head);
+        System.out.println(secondLast.data);
+    }
+
     private static Node createLinkedList(){
         Node n1 = new Node(10);
         Node n2 = new Node(30);
@@ -33,9 +40,5 @@ public class ReturnSecondLastEleInLinList {
 
     }
 
-    public static void main(String[] args) {
-        Node head = createLinkedList();
-        Node secondLast = returnSecondLast(head);
-        System.out.println(secondLast.data);
-    }
+
 }
