@@ -3,7 +3,7 @@ package linkedList;
 public class MaxNumInLinList {
     public static void main(String[] args) {
         Node head = createLinkedList();
-        System.out.println(returnMaxEleInLinkedList(head));
+        System.out.println("Max Element in linked list is " +returnMaxEleInLinkedList(head));
     }
     public static Node createLinkedList(){
         Node n1 = new Node(10);
