@@ -3,7 +3,7 @@ package linkedList;
 public class FindMinEleInLinList {
     public static void main(String[] args) {
         Node head = createLinkedList();
-        System.out.println(returnMinEle(head));
+        System.out.println("Min Element in linked list is "+returnMinEle(head));
     }
     private static Node createLinkedList(){
         Node n1 = new Node(20);
