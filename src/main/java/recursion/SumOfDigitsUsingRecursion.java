@@ -7,7 +7,7 @@ public class SumOfDigitsUsingRecursion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:- ");
         int n = sc.nextInt();
-        System.out.println("Sum of digits (" + n + ") is " +findSumOfDigits(n));
+        System.out.println("Sum of digits of a number (" + n + ") is " +findSumOfDigits(n));
     }
 
     private static int findSumOfDigits(int n){
