@@ -1,8 +1,13 @@
 package recursion;
 
+import java.util.Scanner;
+
 public class FactorialUsingRecursion {
     public static void main(String[] args) {
-        System.out.println(factorialOfNum(6));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:- ");
+        int n = sc.nextInt();
+        System.out.println("Factorial of " + n + " is " +factorialOfNum(6));
     }
 
     private static int factorialOfNum(int n){
