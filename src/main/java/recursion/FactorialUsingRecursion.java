@@ -7,7 +7,7 @@ public class FactorialUsingRecursion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:- ");
         int n = sc.nextInt();
-        System.out.println("Factorial of " + n + " is " +factorialOfNum(6));
+        System.out.println("Factorial of " + n + " is " +factorialOfNum(n));
     }
 
     private static int factorialOfNum(int n){
