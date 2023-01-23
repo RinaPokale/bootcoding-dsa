@@ -8,8 +8,9 @@ public class ReverseStrUsingRecursion {
         char[] arr = str.toCharArray();
         reverseStr(arr, 0);
 
+        System.out.print("Reversed string is ---> ");
         for(int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]);
         }
     }
 
