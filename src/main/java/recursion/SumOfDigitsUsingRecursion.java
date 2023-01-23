@@ -1,8 +1,13 @@
 package recursion;
 
+import java.util.Scanner;
+
 public class SumOfDigitsUsingRecursion {
     public static void main(String[] args) {
-        System.out.println(findSumOfDigits(12345));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:- ");
+        int n = sc.nextInt();
+        System.out.println("Sum of digits (" + n + ") is " +findSumOfDigits(n));
     }
 
     private static int findSumOfDigits(int n){
