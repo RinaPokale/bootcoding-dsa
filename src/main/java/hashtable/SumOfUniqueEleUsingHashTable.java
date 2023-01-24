@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class SumOfUniqueEleUsingHashTable {
     public static void main(String[] args) {
         int a[] = {10, 20, 10, 30, 20, 40};
-        System.out.println(sumOfUniqueEle(a));
+        System.out.println(sumOfUniqueEle(a)); //
     }
 
     private static int sumOfUniqueEle(int[] a){
