@@ -1,6 +1,5 @@
 package array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class SumOfUniqueElements {
@@ -14,6 +13,8 @@ public class SumOfUniqueElements {
     private static int sumOfUniqueElements(int[] nums){
         Arrays.sort(nums);
         int len = nums.length;
+        // for adding frequencies (count) of elements in array -->
+        // Ex., if ele is (1) then add count of (1) at 0th index in "frequency" array
         int[] frequency = new int[nums[len-1]];
         int sum = 0;
 
