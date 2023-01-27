@@ -1,6 +1,7 @@
 package sorting;
 
 public class SelectionSort {
+
     public static void main(String[] args) {
         int[] num = {54, 2, 76, 8, 90, 1};
         selectionSort(num);
