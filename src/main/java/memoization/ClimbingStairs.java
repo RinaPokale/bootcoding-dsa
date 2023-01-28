@@ -14,7 +14,6 @@ public class ClimbingStairs {
 
         store.put(n, climbStairs(n-1) + climbStairs(n-2));
         return store.get(n);
-
     }
 
     public static void main(String[] args) {
