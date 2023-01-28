@@ -3,7 +3,6 @@ package memoization;
 import java.util.HashMap;
 
 public class ClimbingStairs {
-
     static HashMap<Integer, Integer> store = new HashMap<>();
 
     public static int climbStairs(int n) {
