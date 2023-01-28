@@ -21,11 +21,4 @@ public class ClimbingStairs {
     }
 }
 
-/*
-  if (store.containsKey(n)) {
-            return store.get(n);
-        }
 
-        store.put(n, climbStairs(n-1) + climbStairs(n-2));
-        return store.get(n);
- */
