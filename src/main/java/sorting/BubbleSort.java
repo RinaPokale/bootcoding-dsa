@@ -20,6 +20,6 @@ public class BubbleSort {
         bubbleSort(num);
 
         for(int n: num )
-            System.out.println(n);
+            System.out.print(n + " ");
     }
 }
