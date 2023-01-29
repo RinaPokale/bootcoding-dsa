@@ -16,7 +16,7 @@ public class KthMissingPositiveNum {
     }
 
     public static void main(String[] args) {
-//        int[] num = {2,3,4,7,11}; // k = 5
+//      int[] num = {2,3,4,7,11}; // k = 5
         int[] num = {1,2,3,4};
         int k = 2; // position -- > indx-1
         System.out.println(returnKthMissingPositiveNumber(num, k));
