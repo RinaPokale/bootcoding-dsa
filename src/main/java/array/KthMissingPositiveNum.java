@@ -1,7 +1,6 @@
 package array;
 
 public class KthMissingPositiveNum {
-
     public static int returnKthMissingPositiveNumber(int[] num, int k){
         int indx = 0;
 
