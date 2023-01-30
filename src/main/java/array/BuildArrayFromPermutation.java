@@ -1,4 +1,5 @@
 package array;
+
 //1920. Build Array from Permutation
 
 /*  Given a zero-based permutation nums (0-indexed), build an array ans of the same length
