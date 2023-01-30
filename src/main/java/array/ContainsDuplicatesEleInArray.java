@@ -1,5 +1,4 @@
 package array;
-
 import java.util.HashMap;
 
 //217. Contains Duplicate
