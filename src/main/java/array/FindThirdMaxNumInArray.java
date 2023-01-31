@@ -1,6 +1,11 @@
 package array;
 
 //414. Third Maximum Number
+
+/*
+Given an integer array nums, return the third distinct maximum number in this array.
+If the third maximum does not exist, return the maximum number.
+ */
 public class FindThirdMaxNumInArray {
 
     public static int returnThirdMaxNum(int[] num){
@@ -30,8 +35,8 @@ public class FindThirdMaxNumInArray {
     }
 
     public static void main(String[] args) {
-//        int[] num = {2};
-        int[] num = {1, 2, -2234356};
+        int[] num = {2};
+//        int[] num = {1, 2, -2234356};
 //        int[] num = {2, 3};
 //        int[] num = {1, 1, 2};
 //        int[] num = {1, 1, 1};
