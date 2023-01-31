@@ -1,5 +1,7 @@
 package array;
 
+//1979. Find Greatest Common Divisor of Array
+
 public class GCDOfArray {
     public static void main(String[] args) {
         int[] nums = {10,6, 9};
