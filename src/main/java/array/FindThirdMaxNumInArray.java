@@ -6,7 +6,7 @@ package array;
 If the third maximum does not exist, return the maximum number. */
 public class FindThirdMaxNumInArray {
     public static int returnThirdMaxNum(int[] num){
-        Integer fstmax = num[0]; // firstMax
+        Integer fstmax = null; // firstMax
         Integer sndMax = null; // secondMAx
         Integer trdMax = null; // thirdMAx
 
@@ -14,7 +14,7 @@ public class FindThirdMaxNumInArray {
             if(n.equals(fstmax) || n.equals(sndMax) || n.equals(trdMax)) {
                 continue;
             }
-            if(n > fstmax) {
+            if(fstmax == null || n > fstmax) {
                 trdMax = sndMax;
                 sndMax = fstmax;
                 fstmax = n;
@@ -32,8 +32,8 @@ public class FindThirdMaxNumInArray {
     }
 
     public static void main(String[] args) {
-        int[] num = {2};
-//        int[] num = {1, 2, -2234356};
+//        int[] num = {2};
+        int[] num = {1, 2, -2234356};
 //        int[] num = {2, 3};
 //        int[] num = {1, 1, 2};
 //        int[] num = {1, 1, 1};
