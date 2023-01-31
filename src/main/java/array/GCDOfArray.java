@@ -10,6 +10,7 @@ public class GCDOfArray {
         int[] nums = {10,6, 9};
         System.out.println(findGCD(nums));
     }
+
     public static int findGCD(int[] nums) {
         int min = nums[0];
         int max = nums[0];
