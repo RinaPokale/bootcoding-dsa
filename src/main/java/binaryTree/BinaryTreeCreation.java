@@ -48,6 +48,14 @@ public class BinaryTreeCreation {
         System.out.println(root.data); //root
     }
 
+//    private static void isFullBinaryTree(TreeNode root){
+//        if(root == null)
+//            return;
+//
+//
+//        isFullBinaryTree();
+//    }
+
     public static void main(String[] args) {
         TreeNode root = creation();
         System.out.println("Inorder Traversal:- ");
