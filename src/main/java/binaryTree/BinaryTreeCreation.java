@@ -1,6 +1,7 @@
 package binaryTree;
 
 public class BinaryTreeCreation {
+
     public static TreeNode creation(){
         TreeNode root = new TreeNode(1);
         TreeNode n1 = new TreeNode(2);
