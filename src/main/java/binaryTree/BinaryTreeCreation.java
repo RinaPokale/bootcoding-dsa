@@ -17,6 +17,7 @@ public class BinaryTreeCreation {
         return root;
     }
 
+
 //    left root right
     private static void inOrder(TreeNode root){
         if(root == null)
