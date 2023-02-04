@@ -71,7 +71,7 @@ public class BinaryTreeCreation {
         System.out.println("PostOrder Traversal:- ");
         postOrder(root);
 
-        System.out.println("Binary Tree is Full? " + isFullBinaryTree(root));
+        System.out.println("is Binary Tree Full? " + isFullBinaryTree(root));
 
     }
 }
