@@ -1,5 +1,9 @@
 package binaryTree;
 
+//1. creation of Binary tree
+//2. tree traversal techniques ---> Inorder, preorder, postorder
+//3. Check if binary tree is full BT or not
+
 public class BinaryTreeCreation {
 
     public static TreeNode creation(){
