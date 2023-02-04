@@ -72,5 +72,6 @@ public class BinaryTreeCreation {
 
         System.out.println("Tree is Full? " + isFullBinaryTree(root));
 
+
     }
 }
