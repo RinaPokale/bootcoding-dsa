@@ -59,7 +59,6 @@ public class BinaryTreeCreation {
 
         //internal node
         return (root.left != null && root.right != null && isFullBinaryTree(root.left) && isFullBinaryTree(root.right));
-
     }
 
     public static void main(String[] args) {
