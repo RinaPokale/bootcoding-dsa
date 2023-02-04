@@ -49,13 +49,18 @@ public class BinaryTreeCreation {
         System.out.println(root.data); //root
     }
 
-//    private static void isFullBinaryTree(TreeNode root){
-//        if(root == null)
-//            return;
-//
-//
-//        isFullBinaryTree();
-//    }
+    private static boolean isFullBinaryTree(TreeNode root){
+        if(root == null)
+            return true;
+
+        //leaf node
+        if(root.left == null && root.right == null)
+            return true;
+
+        //internal node
+        return (root.left != null && root.right != null && isFullBinaryTree(root.left) && isFullBinaryTree(root.right));
+
+    }
 
     public static void main(String[] args) {
         TreeNode root = creation();
@@ -65,6 +70,8 @@ public class BinaryTreeCreation {
         preOrder(root);
         System.out.println("PostOrder Traversal:- ");
         postOrder(root);
+
+        System.out.println("Tree is Full? " + isFullBinaryTree(root));
 
     }
 }
