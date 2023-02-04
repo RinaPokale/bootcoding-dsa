@@ -64,7 +64,7 @@ public class BinaryTreeCreation {
     public static void main(String[] args) {
         TreeNode root = creation();
 
-        System.out.println("Inorder Traversal:- ");
+        System.out.println("InOrder Traversal:- ");
         inOrder(root);
         System.out.println("PreOrder Traversal:- ");
         preOrder(root);
