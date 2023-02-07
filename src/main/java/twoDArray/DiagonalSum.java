@@ -1,6 +1,8 @@
 package twoDArray;
 
 //1572. Matrix Diagonal Sum
+
+//Given a square matrix mat, return the sum of the matrix diagonals.
 public class DiagonalSum {
     public static int diagonalSum(int[][] matrix){
         int sum = 0, n = matrix.length;
