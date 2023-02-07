@@ -1,6 +1,6 @@
 package twoDArray;
 
-//Matrix Diagonal Sum
+//1572. Matrix Diagonal Sum
 public class DiagonalSum {
     public static int diagonalSum(int[][] matrix){
         int sum = 0, n = matrix.length;
