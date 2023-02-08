@@ -1,6 +1,6 @@
 package array;
 
-
+//1512. Number of Good Pairs
 public class NumberOfGoodPairsInArray {
     public static int returnCountOfNumberOfGoodPairs(int[] num){
         int i = 0, count = 0, len = num.length;
