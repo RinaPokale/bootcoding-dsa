@@ -1,5 +1,6 @@
 package array;
 
+
 public class NumberOfGoodPairsInArray {
     public static int returnCountOfNumberOfGoodPairs(int[] num){
         int i = 0, count = 0, len = num.length;
