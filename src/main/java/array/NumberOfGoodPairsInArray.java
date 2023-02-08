@@ -3,7 +3,7 @@ package array;
 //1512. Number of Good Pairs
 
 //Given an array of integers nums, return the number of good pairs.
-
+//A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 public class NumberOfGoodPairsInArray {
     public static int returnCountOfNumberOfGoodPairs(int[] num){
         int i = 0, count = 0, len = num.length;
