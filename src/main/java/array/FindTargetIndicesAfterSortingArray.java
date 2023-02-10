@@ -6,7 +6,7 @@ import java.util.List;
 
 //2089. Find Target Indices After Sorting Array
 public class FindTargetIndicesAfterSortingArray {
-    static List<Integer> list = new ArrayList<Integer>();
+    static List<Integer> list = new ArrayList<>();
 
     //optimized solution --- > O(n)
     public static List<Integer> targetIndices(int[] nums, int target) {
