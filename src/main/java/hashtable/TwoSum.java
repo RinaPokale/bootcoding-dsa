@@ -3,6 +3,7 @@ package hashtable;
 import java.util.HashMap;
 
 //1. Two Sum
+
 public class TwoSum {
     static HashMap<Integer,Integer> store = new HashMap<>();
     public static int[] twoSum(int[] nums, int target) {
