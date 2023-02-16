@@ -3,7 +3,8 @@ package hashtable;
 import java.util.HashMap;
 
 //1. Two Sum
-//Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+//Given an array of integers nums and an integer target, return indices of the two numbers such that they add up
+// to target.
 public class TwoSum {
     static HashMap<Integer,Integer> store = new HashMap<>();
     public static int[] twoSum(int[] nums, int target) {
