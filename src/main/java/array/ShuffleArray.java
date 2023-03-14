@@ -7,16 +7,16 @@ Return the array in the form [x1,y1,x2,y2,...,xn,yn].*/
 
 public class ShuffleArray {
     public static int[] shuffle(int[] nums, int n) {
-        int[] suffleNum = new int[nums.length];
+        int[] shuffleNum = new int[nums.length];
         int evn = 0, od = 1, l = n;
 
         for(int i = 0; i < n; i++){
-            suffleNum[evn] = nums[i];
+            shuffleNum[evn] = nums[i];
             evn+=2;
-            suffleNum[od] = nums[l++]; // (nums.length-n) + i
+            shuffleNum[od] = nums[l++]; // (nums.length-n) + i
             od+=2;
         }
-        return suffleNum;
+        return shuffleNum;
 
 
     /*  int count = 0;
