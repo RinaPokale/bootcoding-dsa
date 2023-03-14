@@ -1,5 +1,6 @@
 package array;
 
+//1470. Shuffle the Array
 public class ShuffleArray {
     public static int[] shuffle(int[] nums, int n) {
         int[] suffleNum = new int[nums.length];
