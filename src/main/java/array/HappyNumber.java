@@ -2,7 +2,7 @@ package array;
 
 import java.util.HashSet;
 
-//Happy Number
+//202. Happy Number
 public class HappyNumber {
     //Approach-1
     public static boolean isHappy(int n) {
