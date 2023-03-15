@@ -3,6 +3,7 @@ package array;
 import java.util.HashSet;
 
 //202. Happy Number
+//A happy number is a number defined by the following process:
 public class HappyNumber {
     //Approach-1
     public static boolean isHappy(int n) {
