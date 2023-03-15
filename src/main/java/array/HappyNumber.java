@@ -48,9 +48,9 @@ public class HappyNumber {
     }
 
     public static void main(String[] args) {
-//        System.out.println(isHappy(19));
+//      System.out.println(isHappy(19));
         System.out.println(isHappy(2));
         System.out.println(isHappy2(16));
-//        System.out.println(returnAnswer(0, 4));
+//      System.out.println(returnAnswer(0, 4));
     }
 }
