@@ -11,6 +11,6 @@ public class SumOfSeries {
 
     public static void main(String[] args) {
 //        sumOfSeries(5);
-        System.out.println(sumOfSeries(5));
+        System.out.println(sumOfSeries(6));
     }
 }
