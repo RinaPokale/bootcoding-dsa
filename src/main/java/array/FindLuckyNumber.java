@@ -7,8 +7,8 @@ import java.util.Map;
 public class FindLuckyNumber {
     public static void main(String[] args) {
 //        int[] num = {2,2,3,4};
-//        int[] num = {1,2,2,3,3,3};
-        int[] num = {2,2,2,3,3};
+        int[] num = {1,2,2,3,3,3};
+//        int[] num = {2,2,2,3,3};
         System.out.println(findLucky(num));
     }
     public static int findLucky(int[] arr) { // TC & SC :- O(n)
@@ -33,5 +33,6 @@ public class FindLuckyNumber {
             }
         }
         return max;
+
     }
 }
