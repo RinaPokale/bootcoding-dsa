@@ -4,11 +4,11 @@ package array;
 
 public class SearchInsertPosition {
     public static void main(String[] args) {
-//        int[] num = {1, 3, 7, 9, 34, 45, 55, 67 , 78 , 90};
-        int[] num = {1, 3, 5, 6};
-        int target = 7;
+        int[] num = {1, 3, 7, 9, 34, 45, 55, 67 , 78 , 90};
+//        int[] num = {1, 3, 5, 6};
+//        int target = 7;
 //        int[] num = {3};
-//        int target = 50;
+        int target = 50;
         System.out.println(searchInsert(num, target));
     }
 
