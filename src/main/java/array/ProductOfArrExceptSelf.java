@@ -59,8 +59,8 @@ public class ProductOfArrExceptSelf {
         return ans;
     }
     public static void main(String[] args) {
-//        int[] num = {1, 2, 3, 4};
-        int[] num = {-1,1,0,-3,3};
+        int[] num = {1, 2, 3, 4};
+//        int[] num = {-1,1,0,-3,3};
         int[] ans = productOfArrExceptSelfThree(num);
         for(int i = 0; i < ans.length; i++){
             System.out.print(ans[i] + " ");
