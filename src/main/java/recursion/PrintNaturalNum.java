@@ -12,5 +12,6 @@ public class PrintNaturalNum {
 
         printNaturalNum(n-1);
         System.out.println(n);
+
     }
 }
