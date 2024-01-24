@@ -12,6 +12,5 @@ public class PowerOfNumUsingRecursion {
             return 1;
 
         return n * powerOfNum(n, pow-1);
-
     }
 }
