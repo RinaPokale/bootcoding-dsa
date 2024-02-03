@@ -32,5 +32,4 @@ public class LinkedListProOne {
         printLinkedList(head);
     }
 
-
 }
