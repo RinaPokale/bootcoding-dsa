@@ -1,6 +1,5 @@
 package linkedList;
 
-import java.util.List;
 
 //876. Middle of the Linked List
 
