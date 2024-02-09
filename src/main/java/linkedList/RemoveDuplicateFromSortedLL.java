@@ -1,8 +1,5 @@
 package linkedList;
 
-import javax.swing.plaf.basic.BasicListUI;
-import java.util.List;
-
 //83. Remove Duplicates from Sorted List
 
 public class RemoveDuplicateFromSortedLL {
