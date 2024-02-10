@@ -35,7 +35,6 @@ public class SwapNodesInPairs {
             fast = fast.next.next; //+2
 
         }
-
         return head;
     }
 
