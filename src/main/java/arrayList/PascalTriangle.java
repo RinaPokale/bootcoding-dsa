@@ -5,7 +5,7 @@ import java.util.List;
 
 //118. Pascal's Triangle
 public class PascalTriangle {
-    public static List<List<Integer>> generate(int numRows) { //TC:- O(n^2)
+    public static List<List<Integer>> generate(int numRows) { //TC:- O(n^2) && SC:- O(1)
         List<List<Integer>> list = new ArrayList<>();
 
         for (int i = 1; i <= numRows; i++){
