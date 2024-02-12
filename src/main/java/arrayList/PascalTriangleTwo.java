@@ -5,7 +5,7 @@ import java.util.List;
 
 //119. Pascal's Triangle II
 public class PascalTriangleTwo {
-    public static List<Integer> getRow(int rowIndex) { //TC:- O(rowIndex)
+    public static List<Integer> getRow(int rowIndex) { //TC:- O(rowIndex) && SC:- O(1)
         List<Integer> list = new ArrayList<>();
         rowIndex = rowIndex+1;
         long ans = 1;
