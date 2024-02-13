@@ -69,7 +69,7 @@ public class MajorityElement {
                 count++;
         }
 
-        if(count > (int)n/2)
+        if(count > n/2)
             return majority;
 
         return majority;
