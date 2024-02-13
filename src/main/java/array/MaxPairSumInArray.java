@@ -8,7 +8,6 @@ public class MaxPairSumInArray {
         int ans = -1;
         int len = nums.length;
 
-
         for(int i = 0; i < len; i++){ // Tc:- O(n)
             int temp = nums[i];
             int maxDigit = 0;
