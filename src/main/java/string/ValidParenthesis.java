@@ -3,7 +3,7 @@ package string;
 import java.util.Stack;
 
 //20. Valid Parentheses
-public class ValidParenthesis {
+public class ValidParenthesis { //TC:- O(n)
     public static boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
         for(int i = 0; i < s.length(); i++){
