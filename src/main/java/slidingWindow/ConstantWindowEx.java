@@ -1,5 +1,6 @@
 package slidingWindow;
 
+//Constant Window Example ---> return maxSum of SubArray
 public class ConstantWindowEx {
     public static int maxSum(int[] arr, int k){ // optimal approach
         int l = 0, r = k-1;
