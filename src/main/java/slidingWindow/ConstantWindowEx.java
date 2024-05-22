@@ -23,5 +23,6 @@ public class ConstantWindowEx {
         int[] arr = {-1, 2, 3, 3, 4, 5, -1};
         int k = 4;
         System.out.println(maxSum(arr, k));
+
     }
 }
